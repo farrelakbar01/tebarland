@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="title" content="">
+    <meta name="description" content=""> -->
     <title>Tebar Land</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+     
 </head>
 
 <body>
@@ -18,9 +22,9 @@
     <nav>
         <div class="logo"><img src="/assets/Logo Tebar House-09.png" alt=""></div>
         <div id="navbar"><ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#service">Services</a></li>
+            <li><a href="#our-service">Services</a></li>
             <!-- <li><a href="#">Contact</a></li> -->
         </ul></div>
         <!-- <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> -->
@@ -29,21 +33,20 @@
     <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: #25544B; color: white;">Menu
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#our-service">Services</a></li>
       <li><a href="#about">About </a></li>
     </ul>
   </div>
     </nav>
 </div>
 
-
-
+<main>
     <div class="main-content">
-        <div class="main-pane">
+        <div class="main-pane" id="home">
             <h2>"ONE CLICK AWAY TO YOUR DREAM HOME"</h2>
             <h3>Want us to help you find your dream home?</h3>
-            <a class="button" href="">Contact Us</a>
+            <a class="button" href="https://mail.google.com/mail/?view=cm&fs=1&to=tebarland@gmail.com&su=SUBJECT&body=BODY&bcc=tebarland@gmail.com">Contact Us</a>
         </div>
 
     </div>
@@ -73,9 +76,10 @@
 
     </div>
 
+
     <div class="servicetl">
         <h1>Our Services</h1>
-        <div class="service-section">
+        <div class="service-section" id="our-service">
             <!-- Service 1 -->
             <div class="service-card">
                 <img src="./assets/Sales.png" width="8%" height="40px" id="img-pro">
@@ -106,15 +110,17 @@
 
     </div>
 
+</main>
+
    <footer class="magical-footer">
     <div class="container">
  
       <div class="column">
         <h3>Follow Us</h3>
         <ul>
-          <li><a href=""><p>tebarland@gmail.com</p></a></li>
-          <li><a href="https://www.tiktok.com/@tebar.land?is_from_webapp=1&sender_device=pc">Tiktok</a></li>
-          <li><a href="https://www.instagram.com/tebar.land/">Instagram</a></li>
+          <!-- <li><a href=""><p>tebarland@gmail.com</p></a></li> -->
+          <li><a href="https://www.tiktok.com/@tebar.land?is_from_webapp=1&sender_device=pc"class="fa fa-tiktok"><img src="/assets/tiktok.png"></a></li>
+          <li><a href="https://www.instagram.com/tebar.land/" class="fa fa-instagram"></a></li>
         </ul>
       </div>
       <div class="column">
